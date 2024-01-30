@@ -10,7 +10,10 @@ class BillsController < ApplicationController
   end
 
   # GET /bills/1 or /bills/1.json
-  def show; end
+  def show
+    @bills = @bills = Bill.where(author_id: current_user.id)
+    @items = Item.where(bill_id: params[:id])
+  end
 
   # GET /bills/new
   def new
