@@ -49,10 +49,6 @@ class BillsController < ApplicationController
     end
   end
 
-  # def calculate_item_amount(bill)
-  #   bill.items.sum(:amount)
-  # end
-
   # DELETE /bills/1 or /bills/1.json
   def destroy
     @bill.destroy!
