@@ -12,13 +12,13 @@
   <% end %>
 
   <div class='login'>
-    <%= link_to bills_path, class: 'white' do %>
+    <%= link_to bills_path do %>
       <i class="fa-solid fa-arrow-left fa-2x white"></i>
     <% end %>
 
     <p>NEW BILL</p>
     <div>
-      <%= form.submit 'Add', class: 'submit-button' %>
+      <%= form.submit 'Save', class: 'submit-button' %>
     </div>
   </div>
 
@@ -31,7 +31,7 @@
 
     <div class="field login-field text1 padding">
       <%= form.label :icon, style: "display: block" %>
-      <%= form.text_field :icon, class: 'input-field' %>
+      <%= form.select :icon, ['default', 'food', 'game', 'home', 'school', 'transport'], { prompt: "select" }, class: "form-select" %>
     </div>
 
     <div>
