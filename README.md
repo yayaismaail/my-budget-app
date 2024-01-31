@@ -80,6 +80,8 @@ After the server starts running, go to your browser and visit the following link
 
 `http://localhost:3000/`
 
+To test the app, you can try creating a bill after login.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="authors"></a>
@@ -94,8 +96,9 @@ After the server starts running, go to your browser and visit the following link
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add more Ctegories]
+- [Add more Categories]
 - [Add more pages]
+- [Add more products]
 - [Add more UX]
 
 
@@ -118,7 +121,7 @@ If you like this project please show me support by giving it a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my colleagues at Microverse for their support during the project.
-I would like to also give credit to Gregoire Vella in Behance for his wonderful design.
+Not only that, I would like to give credit to Gregoire Vella in Behance for his wonderful design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
