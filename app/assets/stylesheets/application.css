@@ -141,16 +141,16 @@ a {
   cursor: pointer;
 }
 
-.forgot-password:focus {
-  outline: none;
-  border-color: #3498db;
-  box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
-}
-
 .forgot-password {
   padding: 5px;
   width: 60%;
   cursor: pointer;
+}
+
+.forgot-password:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
 }
 
 .send-me-password {
