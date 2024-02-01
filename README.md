@@ -97,8 +97,9 @@ To test the app, you can try creating a bill after login.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [Add more Categories]
-- [Add more pages]
-- [Add more products]
+- [User can view a summary of their transactions, including the total balance, total income, and total expenses.]
+- [User can view a list of all their transactions, sorted by date.]
+- [User can view a list of all their transactions, sorted by date.]
 - [Add more UX]
 
 
