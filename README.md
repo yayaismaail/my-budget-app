@@ -41,7 +41,7 @@
 - **Integration test was carriedout using Capybara**
 
 ## 💻 Presentation <a name="presentation"></a>
-(https://www.loom.com/share/d0cd1511bbe94edd84323f44a0980775?sid=6574b3e9-5601-4130-9d32-383f19b3ac7a)
+[presentation](https://www.loom.com/share/d0cd1511bbe94edd84323f44a0980775?sid=6574b3e9-5601-4130-9d32-383f19b3ac7a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
