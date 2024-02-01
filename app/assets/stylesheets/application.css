@@ -19,6 +19,7 @@ a {
   width: 50%;
   padding: 5px 0;
   outline: none;
+  cursor: pointer;
 }
 
 .padding {
