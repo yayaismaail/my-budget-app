@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [🚀 Live Demo](#Demo)
 - [💻 Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -39,6 +40,9 @@
 - **Devise used for authentication**
 - **Built with Ruby on Rails**
 - **Integration test was carriedout using Capybara**
+
+## 🚀 Live Demo <a name="demo"></a>
+[Demo]()
 
 ## 💻 Presentation <a name="presentation"></a>
 [presentation](https://www.loom.com/share/d0cd1511bbe94edd84323f44a0980775?sid=6574b3e9-5601-4130-9d32-383f19b3ac7a)
