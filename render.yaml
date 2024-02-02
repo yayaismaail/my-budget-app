@@ -1,16 +1,14 @@
 databases:
   - name: my_budget_app
-    databaseName: my_budget_app_y3je 
-    user: my_budget_app_y3je_user
-    plan: free
+    databaseName: my_budget_app
+    user: my_budget_app
 
 services:
   - type: web
     name: my_budget_app
     runtime: ruby
-    plan: free
     buildCommand: "./bin/render-build.sh"
-    startCommand: "./bin/rails server"
+    startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
