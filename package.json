@@ -1,10 +1,4 @@
 {
-  "name": "my-budget-app",
-  "version": "1.0.0",
-  "description": "Your project description",
-  "scripts": {
-    "build": "bin/webpack"
-  },
   "devDependencies": {
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
