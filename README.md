@@ -6,8 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-- [💻 Demo](#demo)
-<!-- - [💻 Presentation](#presentation) -->
+- [💻 Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -41,10 +40,8 @@
 - **Built with Ruby on Rails**
 - **Integration test was carriedout using Capybara**
 
-## 💻 Demo <a name="demo"></a>
-Here is the live [Demo]()
-
-<!-- ## 💻 Presentation <a name="presentation"></a> -->
+## 💻 Presentation <a name="presentation"></a>
+[presentation](https://www.loom.com/share/d0cd1511bbe94edd84323f44a0980775?sid=6574b3e9-5601-4130-9d32-383f19b3ac7a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
