@@ -1,18 +1,34 @@
 databases:
-  - name: my-budget-app
-    databaseName: my-budget-app
-    user: my-budget-app
+  # - name: my-budget-app
+   - name: postgres
+    # databaseName: my-budget-app
+    # user: my-budget-app
+    ipAllowList: []
 
 services:
   - type: web
-    name: my-budget-app
+    # name: my-budget-app
+    name: rails
     env: ruby
     buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec puma -C config/puma.rb"
+    # startCommand: "bundle exec puma -C config/puma.rb"
+    startCommand: bundle exec rails s
     envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: my-budget-app
-          property: connectionString
+      # - key: DATABASE_URL
       - key: RAILS_MASTER_KEY
         sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          # name: my-budget-app
+          name: postgres
+          property: connectionString
+      # - key: RAILS_MASTER_KEY
+  - type: redis
+    name: redis
+    ipAllowList: []
+    plan: free
+    maxmemoryPolicy: noeviction
+    
+
+
+        
