@@ -1,12 +1,3 @@
-Adding config/master.key to store the encryption key: 9620a742a7681d5e4fafa9f90e9fcc81
-
-Save this in a password manager your team can access.
-
-If you lose the key, no one, including you, can access anything encrypted with it.
-
-      create  config/master.key
-
-Configured Git diff driver for credentials.
 No $VISUAL or $EDITOR to open file in. Assign one like this:
 
 VISUAL="mate --wait" bin/rails credentials:edit

@@ -24,6 +24,7 @@ Rails.application.configure do
   # config.public_file_server.enabled = false
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present? || ENV['RENDER'].present?
 
+
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
 
