@@ -6,6 +6,13 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <!-- Meta tags for LinkedIn link previews -->
+    <meta property="og:title" content="MyBudgetApp">
+    <meta property="og:description" content="A Ruby on Rails application for managing your budget">
+    <meta property="og:image" content="URL to the thumbnail image">
+    <meta property="og:url" content="URL to your MyBudgetApp project">
+    <meta property="og:type" content="website">
+
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
@@ -19,3 +26,4 @@
     <%= yield %>
   </body>
 </html>
+
